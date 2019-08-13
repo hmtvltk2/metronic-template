@@ -12,7 +12,7 @@
 @import "../core/base/mixins/grid";
 @import "../core/base/grid";
 @import "../core/base/portlet";
-@import "../core/base/datatable";
+// @import "../core/base/datatable";
 @import "../core/base/scrolltop";
 @import "../core/base/form";
 @import "../core/base/input-icon";
@@ -41,16 +41,16 @@
 @import "../../vendors/bootstrap-maxlength";
 @import "../../vendors/bootstrap-select";
 @import "../../vendors/bootstrap-session-timeout";
-@import "../../vendors/jqvmap";
+// @import "../../vendors/jqvmap";
 @import "../../vendors/ion-range-slider";
 @import "../../vendors/typeahead";
 @import "../../vendors/nouislider";
-@import "../../vendors/summernote";
+// @import "../../vendors/summernote";
 @import "../../vendors/bootstrap-markdown";
 @import "../../vendors/dropzone";
 @import "../../vendors/recaptcha";
 @import "../../vendors/toastr";
-@import "../../vendors/gmaps";
+// @import "../../vendors/gmaps";
 @import "../../vendors/fontawesome5";
 @import "../../vendors/jstree";
 @import "../../vendors/select2";
@@ -89,7 +89,7 @@
  
 
 // Layout
-@import "layout/demo-panel";
+// @import "layout/demo-panel";
 @import "layout/offcanvas-panel";
 @import "layout/quick-panel";
 @import "layout/quick-search";
@@ -100,13 +100,13 @@
 
 // Typography
 @import "typography/badge";
-@import "typography/demo";
+// @import "typography/demo";
 @import "typography/divider";
 @import "typography/heading";
 @import "typography/link";
 @import "typography/section";
 @import "typography/separator";
-@import "typography/svg-icon";
+// @import "typography/svg-icon";
 
 // Widgets - Dashboard
 @import "widgets/dashboard/widget1";

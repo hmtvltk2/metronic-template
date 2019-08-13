@@ -2,11 +2,11 @@
     "name": "metronic",
     "version": "6.0.4",
     "config": {
-        "demo": "",
+        "demo": "demo1",
         "debug": false,
         "compile": {
             "rtl": {
-                "enabled": true,
+                "enabled": false,
                 "skip": [
                     "select2",
                     "socicon",
@@ -31,7 +31,6 @@
         "path": {
             "src": "./../src/assets",
             "node_modules": "./node_modules",
-            
             "demo_api_url": "https://keenthemes.com/metronic/themes/themes/metronic/dist/preview/"
         },
         "dist": [
@@ -438,32 +437,6 @@
                         "scripts": "{$config.dist}/vendors/custom/fullcalendar/fullcalendar.bundle.js"
                     }
                 },
-                "gmaps": {
-                    "src": {
-                        "scripts": [
-                            "{$config.path.node_modules}/gmaps/gmaps.js"
-                        ]
-                    },
-                    "bundle": {
-                        "scripts": "{$config.dist}/vendors/custom/gmaps/gmaps.js"
-                    }
-                },
-                "jquery-flot": {
-                    "src": {
-                        "scripts": [
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.resize.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.categories.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.pie.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.stack.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.crosshair.js",
-                            "{$config.path.node_modules}/jquery-flot/jquery.flot.axislabels.js"
-                        ]
-                    },
-                    "bundle": {
-                        "scripts": "{$config.dist}/vendors/custom/flot/flot.bundle.js"
-                    }
-                },
                 "datatables.net": {
                     "src": {
                         "styles": [
@@ -530,25 +503,6 @@
                         "styles": "{$config.dist}/vendors/custom/jstree/jstree.bundle.css",
                         "scripts": "{$config.dist}/vendors/custom/jstree/jstree.bundle.js",
                         "images": "{$config.dist}/vendors/custom/jstree/images"
-                    }
-                },
-                "jqvmap": {
-                    "src": {
-                        "styles": [
-                            "{$config.path.node_modules}/jqvmap/dist/jqvmap.css"
-                        ],
-                        "scripts": [
-                            "{$config.path.node_modules}/jqvmap/dist/jquery.vmap.js",
-                            "{$config.path.node_modules}/jqvmap/dist/maps/jquery.vmap.world.js",
-                            "{$config.path.node_modules}/jqvmap/dist/maps/jquery.vmap.russia.js",
-                            "{$config.path.node_modules}/jqvmap/dist/maps/jquery.vmap.usa.js",
-                            "{$config.path.node_modules}/jqvmap/dist/maps/jquery.vmap.germany.js",
-                            "{$config.path.node_modules}/jqvmap/dist/maps/jquery.vmap.europe.js"
-                        ]
-                    },
-                    "bundle": {
-                        "styles": "{$config.dist}/vendors/custom/jqvmap/jqvmap.bundle.css",
-                        "scripts": "{$config.dist}/vendors/custom/jqvmap/jqvmap.bundle.js"
                     }
                 }
             }
