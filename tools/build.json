@@ -117,23 +117,6 @@
                                 "{$config.path.src}/js/vendors/bootstrap-datepicker.init.js"
                             ]
                         },
-                        "bootstrap-datetime-picker": {
-                            "styles": [
-                                "{$config.path.node_modules}/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js"
-                            ]
-                        },
-                        "bootstrap-timepicker": {
-                            "styles": [
-                                "{$config.path.node_modules}/bootstrap-timepicker/css/bootstrap-timepicker.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-timepicker/js/bootstrap-timepicker.min.js",
-                                "{$config.path.src}/js/vendors/bootstrap-timepicker.init.js"
-                            ]
-                        },
                         "bootstrap-daterangepicker": {
                             "styles": [
                                 "{$config.path.node_modules}/bootstrap-daterangepicker/daterangepicker.css"
@@ -246,17 +229,6 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/dropzone/dist/dropzone.js"
-                            ]
-                        },
-                        "summernote": {
-                            "styles": [
-                                "{$config.path.node_modules}/summernote/dist/summernote.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/summernote/dist/summernote.js"
-                            ],
-                            "fonts": [
-                                "{$config.path.node_modules}/summernote/dist/font/**"
                             ]
                         },
                         "bootstrap-makrdown": {
