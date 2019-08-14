@@ -92,17 +92,6 @@
                         }
                     },
                     "optional": {
-                        "jquery-form": {
-                            "scripts": [
-                                "{$config.path.node_modules}/jquery-form/dist/jquery.form.min.js"
-                            ]
-                        },
-                        "tether": {
-                            "styles": [
-                                "{$config.path.node_modules}/tether/dist/css/tether.css"
-                            ],
-                            "scripts": []
-                        },
                         "block-ui": {
                             "scripts": [
                                 "{$config.path.node_modules}/block-ui/jquery.blockUI.js"
@@ -115,14 +104,6 @@
                             "scripts": [
                                 "{$config.path.node_modules}/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
                                 "{$config.path.src}/js/vendors/bootstrap-datepicker.init.js"
-                            ]
-                        },
-                        "bootstrap-daterangepicker": {
-                            "styles": [
-                                "{$config.path.node_modules}/bootstrap-daterangepicker/daterangepicker.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-daterangepicker/daterangepicker.js"
                             ]
                         },
                         "bootstrap-touchspin": {
@@ -138,28 +119,6 @@
                                 "{$config.path.node_modules}/bootstrap-maxlength/src/bootstrap-maxlength.js"
                             ]
                         },
-                        "bootstrap-multiselectsplitter": {
-                            "scripts": [
-                                "{$config.path.src}/vendors/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js"
-                            ]
-                        },
-                        "bootstrap-select": {
-                            "styles": [
-                                "{$config.path.node_modules}/bootstrap-select/dist/css/bootstrap-select.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-select/dist/js/bootstrap-select.js"
-                            ]
-                        },
-                        "bootstrap-switch": {
-                            "styles": [
-                                "{$config.path.node_modules}/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-switch/dist/js/bootstrap-switch.js",
-                                "{$config.path.src}/js/vendors/bootstrap-switch.init.js"
-                            ]
-                        },
                         "select2": {
                             "styles": [
                                 "{$config.path.node_modules}/select2/dist/css/select2.css"
@@ -168,28 +127,10 @@
                                 "{$config.path.node_modules}/select2/dist/js/select2.full.js"
                             ]
                         },
-                        "ion-rangeslider": {
-                            "styles": [
-                                "{$config.path.node_modules}/ion-rangeslider/css/ion.rangeSlider.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/ion-rangeslider/js/ion.rangeSlider.js"
-                            ],
-                            "images": [
-                                "{$config.path.node_modules}/ion-rangeslider/img/sprite-skin-flat.png"
-                            ]
-                        },
                         "typeahead.js": {
                             "scripts": [
                                 "{$config.path.node_modules}/typeahead.js/dist/typeahead.bundle.js",
                                 "{$config.path.node_modules}/handlebars/dist/handlebars.js"
-                            ]
-                        },
-                        "inputmask": {
-                            "scripts": [
-                                "{$config.path.node_modules}/inputmask/dist/jquery.inputmask.bundle.js",
-                                "{$config.path.node_modules}/inputmask/dist/inputmask/inputmask.date.extensions.js",
-                                "{$config.path.node_modules}/inputmask/dist/inputmask/inputmask.numeric.extensions.js"
                             ]
                         },
                         "nouislider": {
@@ -198,19 +139,6 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/nouislider/distribute/nouislider.js"
-                            ]
-                        },
-                        "owl.carousel": {
-                            "styles": [
-                                "{$config.path.node_modules}/owl.carousel/dist/assets/owl.carousel.css",
-                                "{$config.path.node_modules}/owl.carousel/dist/assets/owl.theme.default.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/owl.carousel/dist/owl.carousel.js"
-                            ],
-                            "images": [
-                                "{$config.path.node_modules}/owl.carousel/dist/assets/owl.video.play.png",
-                                "{$config.path.node_modules}/owl.carousel/dist/assets/ajax-loader.gif"
                             ]
                         },
                         "autosize": {
@@ -231,6 +159,17 @@
                                 "{$config.path.node_modules}/dropzone/dist/dropzone.js"
                             ]
                         },
+                        "summernote": {
+                            "styles": [
+                                "{$config.path.node_modules}/summernote/dist/summernote.css"
+                            ],
+                            "scripts": [
+                                "{$config.path.node_modules}/summernote/dist/summernote.js"
+                            ],
+                            "fonts": [
+                                "{$config.path.node_modules}/summernote/dist/font/**"
+                            ]
+                        },
                         "bootstrap-makrdown": {
                             "styles": [
                                 "{$config.path.node_modules}/bootstrap-markdown/css/bootstrap-markdown.min.css"
@@ -239,12 +178,6 @@
                                 "{$config.path.node_modules}/markdown/lib/markdown.js",
                                 "{$config.path.node_modules}/bootstrap-markdown/js/bootstrap-markdown.js",
                                 "{$config.path.src}/js/vendors/bootstrap-markdown.init.js"
-                            ]
-                        },
-                        "remarkable-bootstrap-notify": {
-                            "scripts": [
-                                "{$config.path.node_modules}/bootstrap-notify/bootstrap-notify.min.js",
-                                "{$config.path.src}/js/vendors/bootstrap-notify.init.js"
                             ]
                         },
                         "jquery-validation": {
@@ -265,30 +198,6 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/toastr/build/toastr.min.js"
-                            ]
-                        },
-                        "morris.js": {
-                            "styles": [
-                                "{$config.path.node_modules}/morris.js/morris.css"
-                            ],
-                            "scripts": [
-                                "{$config.path.node_modules}/raphael/raphael.js",
-                                "{$config.path.node_modules}/morris.js/morris.js"
-                            ]
-                        },
-                        "chart.js": {
-                            "scripts": [
-                                "{$config.path.node_modules}/chart.js/dist/Chart.bundle.js"
-                            ]
-                        },
-                        "bootstrap-session-timeout": {
-                            "scripts": [
-                                "{$config.path.src}/vendors/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js"
-                            ]
-                        },
-                        "jquery-idletimer": {
-                            "scripts": [
-                                "{$config.path.src}/vendors/jquery-idletimer/idle-timer.min.js"
                             ]
                         },
                         "counterup": {
@@ -312,27 +221,6 @@
                                 "{$config.path.node_modules}/jquery.repeater/src/lib.js",
                                 "{$config.path.node_modules}/jquery.repeater/src/jquery.input.js",
                                 "{$config.path.node_modules}/jquery.repeater/src/repeater.js"
-                            ]
-                        },
-                        "socicon": {
-                            "styles": [
-                                "{$config.path.node_modules}/socicon/css/socicon.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.node_modules}/socicon/font/**"
-                            ]
-                        },
-                        "dompurify": {
-                            "scripts": [
-                                "{$config.path.node_modules}/dompurify/dist/purify.js"
-                            ]
-                        },
-                        "line-awesome": {
-                            "styles": [
-                                "{$config.path.src}/vendors/line-awesome/css/line-awesome.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.src}/vendors/line-awesome/fonts/**"
                             ]
                         },
                         "flaticon": {
@@ -369,46 +257,6 @@
                 }
             },
             "custom": {
-                "jquery-ui": {
-                    "src": {
-                        "styles": [
-                            "{$config.path.src}/vendors/jquery-ui/jquery-ui.min.css"
-                        ],
-                        "scripts": [
-                            "{$config.path.src}/vendors/jquery-ui/jquery-ui.min.js"
-                        ],
-                        "images": [
-                            "{$config.path.src}/vendors/jquery-ui/images/*"
-                        ]
-                    },
-                    "bundle": {
-                        "styles": "{$config.dist}/vendors/custom/jquery-ui/jquery-ui.bundle.css",
-                        "scripts": "{$config.dist}/vendors/custom/jquery-ui/jquery-ui.bundle.js",
-                        "images": "{$config.dist}/vendors/custom/jquery-ui/images"
-                    }
-                },
-                "fullcalendar": {
-                    "src": {
-                        "styles": [
-                            "{$config.path.node_modules}/@fullcalendar/core/main.css",
-                            "{$config.path.node_modules}/@fullcalendar/daygrid/main.css",
-                            "{$config.path.node_modules}/@fullcalendar/list/main.css",
-                            "{$config.path.node_modules}/@fullcalendar/timegrid/main.css"
-                        ],
-                        "scripts": [
-                            "{$config.path.node_modules}/@fullcalendar/core/main.js",
-                            "{$config.path.node_modules}/@fullcalendar/daygrid/main.js",
-                            "{$config.path.node_modules}/@fullcalendar/google-calendar/main.js",
-                            "{$config.path.node_modules}/@fullcalendar/interaction/main.js",
-                            "{$config.path.node_modules}/@fullcalendar/list/main.js",
-                            "{$config.path.node_modules}/@fullcalendar/timegrid/main.js"
-                        ]
-                    },
-                    "bundle": {
-                        "styles": "{$config.dist}/vendors/custom/fullcalendar/fullcalendar.bundle.css",
-                        "scripts": "{$config.dist}/vendors/custom/fullcalendar/fullcalendar.bundle.js"
-                    }
-                },
                 "datatables.net": {
                     "src": {
                         "styles": [
